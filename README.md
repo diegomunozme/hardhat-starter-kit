@@ -431,3 +431,13 @@ Contributions are always welcome! Open a PR or an issue!
 
 - [Chainlink Documentation](https://docs.chain.link/)
 - [Hardhat Documentation](https://hardhat.org/getting-started/)
+
+
+### Diegos own additions 
+APIConsumer deployed to 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0 on hardhat
+APIConsumer funded with 1000000000000000000 JUELS
+Automation Counter deployed to 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9 on hardhat
+ETH/USD Price Consumer deployed to 0x0165878A594ca255338adfa4d48449f69242Eb8F on hardhat
+Random Number Consumer deployed to 0x610178dA211FEF7D417bC0e6FeD39F05609AD788 on hardhat
+
+npx hardhat read-price-feed --contract  0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0 --network localhost
